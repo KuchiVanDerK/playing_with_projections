@@ -39,6 +39,8 @@ dependencies {
     compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.5")
     testCompile('junit:junit:4.12')
   }
+  testCompile 'org.codehaus.groovy:groovy-all:2.5.4'
+  testCompile 'org.spockframework:spock-core:1.2-groovy-2.5'
 }
 
 task deleteLibs(type: Delete) {
